@@ -1,0 +1,1296 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-weight: normal;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.layout {
+    width: 100%;
+    background: url("../imgs/index-bg.jpg") center top no-repeat;
+    vertical-align: top;
+    overflow: hidden;
+}
+.logo-img-wrapper {
+    padding-top: 30px;
+}
+.logo-img-wrapper .logo{
+    width:125px;
+    height:119px;
+    margin: 0 auto;
+    background: url(../imgs/logo.png) no-repeat center center;
+}
+.logo-img-wrapper .logo-title{
+    letter-spacing: 5px;
+    color:#c61010;
+    text-align: center;
+}
+.logo-img-wrapper .logo-title h3{
+    font-weight: 500;
+    font-size:58px;
+    padding-top: 15px;
+}
+.logo-img-wrapper .logo-title h2{
+    font-weight: bolder;
+    font-size:88px;
+    padding-top: 5px;
+}
+.logo-img-wrapper .join-person{
+    margin-top: 310px;
+    padding-top: 35px;
+    background: url(../imgs/img01.png) no-repeat center top;
+    text-align: center;
+    font-size:0;
+}
+.logo-img-wrapper .join-person .count{
+    display: inline-block;
+    width:47px;
+    height:65px;
+    font-size:42px;
+    color:#fdd100;
+    text-align: center;
+    line-height: 65px;
+    background: url(../imgs/img02.png) no-repeat center center;
+}
+/* header star */
+
+ .header {
+    width: 1000px;
+    margin:  0  auto;
+}
+ .menu{
+    position: relative;
+    height:107px;
+    background: url(../imgs/img03.png) no-repeat center center;
+    margin-top: 16px;
+    color:#ffef9d;
+}
+ .menu .right-bg{
+    position: absolute;
+    width:25px;
+    height:106px;
+    top:0;
+    right:-25px;
+    background: url(../imgs/img04.png) no-repeat center center;
+}
+ .menu .title{
+    font-size:36px;
+    width:270px;
+    height:107px;
+    padding-left: 52px;
+    line-height:96px;
+    color:#ffef9d;
+    cursor: pointer;
+}
+ .menu .list{
+    padding-top: 18px;
+}
+ .menu .list li{
+    padding: 0 26px;
+    border-left:1px solid #ffef9d;
+}
+ .menu .list a{
+    color:#ffef9d;
+    cursor: pointer;
+    font-size:22px;
+    display: block;
+}
+ .menu .list a.mb{
+    position: relative;
+    top:-3px;
+    margin-bottom: 10px;
+}
+/* header end */
+.content {
+    overflow: hidden;
+}
+/* booking start */
+.layout .booking {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+.layout .booking>div{
+    height: 100%;
+    float: left;
+}
+.layout .booking .booking_link {
+    width: 248px;
+}
+.layout .booking>div {
+    margin: 0 5px;
+}
+.layout .booking a img,
+.layout .booking .media_notice ul {
+    margin: 13px 0px;
+    height: 90px;
+}
+.layout .booking .booking_link img {
+    width: 252px;
+}
+.layout .booking .check_score,
+.layout .booking .img_dowm {
+    width: 205px;
+}
+
+.layout .booking .media_notice {
+    width: 300px;
+}
+.layout .booking .media_notice ul {
+    background: url("../imgs/00404161924_c2cc2799.jpg") no-repeat center;
+    padding-left: 45px;
+    padding-top: 3px;
+}
+.layout .booking .media_notice ul li{
+    font-size: 14px;
+    line-height: 200%;
+    cursor: pointer;
+}
+/* booking end */
+
+/* headlines start */
+.layout .headlines {
+        height: 81px;
+        background: url("../imgs/1qyh-plus06_17.jpg") no-repeat center;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+.layout .headlines p {
+    height: 100%;
+    line-height: 95px;
+    font-size: 33px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    color: #0055c1;
+    font-weight: 700;
+    
+}
+/* headlines end */
+
+/* content start */
+.layout .content {
+    background: #fff;
+}
+.layout .content .carousel-wrapper {
+    padding: 55px 0 0 35px;
+}
+.layout .content .carousel_div {
+    
+    height: 240px;
+    width: 678px;
+}
+.layout .content .carousel {
+    height: 100%;
+}
+
+/* carouser  */
+.layout .content  .carousel-inner .item  {
+    width:800px;
+}
+.layout .content  .carousel-inner .item img {
+    width: 100%;
+    height: 289px;
+}
+.content .carousel-control.left,
+.content .carousel-control.right {
+    font-size: 50px;
+    line-height: 240px;
+    background-image: none;
+}
+.carousel_div .carousel-indicators .active {
+    width: 30px;
+    background-color: #DBAA47;
+}
+.carousel_div .carousel-indicators {
+    bottom: 0px;
+}
+.carousel_div .carousel-indicators li {
+    border: none;
+    background-color: #fff;
+    margin: 0 3px;
+}
+.carousel_div .carousel-caption  {
+    font-size: 18px;
+    width: 100%;
+    background-color: rgba(100, 100, 100, .6);
+    left: 0;
+    bottom: 0px;
+}
+.content .marjor_info {
+    padding: 0 20px;
+}
+
+.body-index .content .code-box{
+    padding: 12px 0 0 13px; 
+    width: 260px;
+}
+.body-index .content  .code-box .btn{
+    width:245px;
+    height:48px;
+    text-align: center;
+    font-size:24px;
+    padding: 0;
+    line-height: 45px;
+    display: block;
+    color:#fff;
+    margin-left: 8px;
+}
+.body-index .content  .code-box .btn-bm{
+    background-color: #c61010;
+    border:1px solid #c61010;
+}
+.body-index .content  .code-box .btn-cx{
+    background-color: #e8421e;
+    border:1px solid #e8421e;
+    margin-top: 27px;
+}
+.body-index .content  .code-box .code{
+    margin-top: 45px;
+}
+
+
+.body-index .content .news-gg{
+    padding-top: 64px;
+}
+.body-index .content .news-gg .left{
+    width:724px;
+}
+.body-index .content .news-gg .left .title{
+    height:53px;
+    background: url(../imgs/img07.jpg) no-repeat center center;
+    padding-top: 20px;
+
+}
+.body-index .content .news-gg .left .title .more{
+    margin: 0 30px 0 0;
+    border:1px solid #fff;
+    color:#fff;
+    border-radius: 4px;
+    padding: 1px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size:12px;
+}
+.body-index .content .news-gg .left ul{
+    margin-bottom: 0;
+    padding-top: 25px;
+}
+.body-index .content .news-gg .left ul li{
+    font-size:18px;
+    padding: 5px 0 5px 64px;
+    background: url(../imgs/img08.jpg) no-repeat 45px center;
+}
+.body-index .content .news-gg .left ul li a{
+    color:#333;
+    cursor: pointer;
+    display: block;
+}
+.body-index .content .news-gg .left ul li .time{
+    font-size:16px;
+    margin-left: 20px;
+}
+.body-index .content .news-gg .right{
+    width:263px;
+    margin-left: 12px;
+    padding-top: 8px;
+}
+.body-index .content .news-gg .right .title{
+    height:45px;
+    background-color: #c61010;
+}
+
+.content h4.tips {
+    background: url("../imgs/img_50.png") no-repeat center;
+    height: 36px;
+    font-size: 24px;
+    color: #fff;
+}
+.content h4.tips span.text_tltle {
+    display: inline-block;
+    width: 128px;
+    line-height: 36px;
+    height: 36px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700
+}
+.content h4.tips a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.content .info_tips {
+    text-align: center;
+}
+.content .info_tips a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #004dac;
+    text-decoration: none;
+    padding: 2px 0;
+}
+.content .info_ul li {
+    height: 36px;
+    line-height: 36px;
+    padding-left: 60px;
+}
+.content .info_ul li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+}
+.content .media_info {
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 20px 10px;
+    position: relative;
+    
+}
+.content .media_info img {
+    width: 200px;
+    height: 120px;
+    vertical-align: middle;
+    position: relative;
+    top: 0;
+    margin-top: -20px;
+}
+.content .media_vedio {
+    width: 415px;
+    margin: 0 auto;
+    border-top: 1px dashed #222;
+    padding: 15px 0;
+    position: relative;
+}
+.content .media_vedio img {
+    position: absolute;
+    top: 0;
+    margin-top: 25px;
+    left: 0;
+    margin-left: 20px;
+}
+.content .media_vedio li {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;
+    /* background: url("../imgs/qyh_45.jpg") no-repeat ; */
+}
+.content .fllow_media_info ul {
+    padding:0 60px;
+}
+.content .fllow_media_info ul li {
+    font-size: 16px;
+    padding: 6px 0;
+}
+/* banner */
+.content .banner_img img {
+    width: 100%;
+    height: 100px;
+}
+.content .banner_img ul {
+    margin-top: 10px;
+}
+.content .banner_img ul li {
+    width: 499px;
+}
+.content .banner_img ul li img {
+    height: 60px;
+}
+.content .palm_sport img{
+    width: 100%;
+    height:320px; 
+}
+.content .beautiful_tj div{
+    background-color: rgb(116, 192, 235);
+    text-align: center;
+    width: 480px;
+    padding: 5px 0;
+}
+.content .beautiful_tj div img{
+    padding:3px 8px;
+    height: 270px;
+}
+.content .sport_view .bg_img {
+   
+    height: 53px;
+    margin-top: 20px;
+    line-height: 53px;
+    
+}
+.content .bg_img {
+    margin-bottom: 20px;
+}
+.content .bg_img b {
+    width: 277px;
+    display: inline-block;
+    height: 53px;
+    line-height: 53px;
+    font-size: 30px;
+    margin-left: 358px;
+    text-align: center;
+    color: #fff;
+}
+.content .bg_img a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.row .sport_img_item {
+    width: 223px;
+    padding: 0;
+    text-align: center;
+    height: 158px;
+    line-height: 158px;
+    margin: 12px;
+    border: 1px solid #add3f7;
+}
+.content .sport_img_item img {
+    width: 213px;
+    height: 146px;
+}
+.content .sport_img_item p {
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    line-height: 24px;
+}
+.content .sport_view_info {
+    margin-top: 20px;
+    padding: 10px 10px 0px 0px;
+}
+.content .sport_view_info ul {
+    padding: 0 10px;
+}
+.content .sport_view_info ul li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.content .sport_view_info ul li span {
+    margin-left: 10px;
+}
+/* .sport_info */
+.content .sport_info {
+    margin-bottom: 20px;
+}
+.content .sport_info .bg_img{
+    height: 53px;
+    background: url("../imgs/sport_infoImg.jpg") no-repeat center;
+}
+.sport_m ul {
+    margin: 0;
+}
+/* sport_dynamic */
+.content  .sport_dynamic .bg_img{
+    height: 53px;
+    background: url("../imgs/sport_infoImg.jpg") no-repeat center;
+    line-height: 53px;
+}
+.content .col-xs-6,
+.content .col-xs-12{
+    padding: 0
+}
+.content  .sport_dynamic .header_info {
+    margin-bottom: 10px;
+}
+.content  .sport_dynamic .header_info .img {
+    width: 160px;
+    height: 120px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.content  .sport_dynamic .header_info img {
+    width: 100%;
+    height: 100%;
+    
+}
+.content  .sport_dynamic .header_info .text {
+    width: 280px;
+    text-indent: 2em;
+    line-height: 30px;
+    padding: 10px 0;
+}
+.content .sport_type_item p {
+    color: #004dac;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+/* sport_imgs */
+.content .sport_imgs {
+    margin-top: 20px;
+}
+.content .sport_type_item .big_img {
+    width: 490px;
+    margin: 5px;
+}
+.content .sport_type_item .sm_img {
+    width: 245px;
+    height: 160px;
+    margin: 5px;
+}
+.content .sport_imgs .img_div {
+    height: 340px;
+}
+.content .sport_imgs .img_box {
+    position: relative;
+    overflow: hidden;
+}
+.content .sport_imgs .img_box p {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background-color:rgba(50, 50, 50, .6);
+    margin: 5px;
+    font-weight: 400;    
+}
+.content .sport_m .bg_img {
+    background: url("../imgs/img_100.png") no-repeat center;
+}
+/* sport_dream */
+
+/* masses_sport */
+
+/* sport_around */
+
+/* media_follow */
+
+/* sport_health */
+
+
+/* sport_analeptic */
+
+/* sport_project */
+
+.content .sport_project .project_img {
+    width: 82px;
+    height: 82px;
+}
+.content .sport_project .w_10{
+    text-align: center;
+    margin: 10px 5px;
+}
+/* sport_field */
+
+
+.content .sport_field .imgs_box {
+    margin: 20px 0px;
+   
+}
+.content .sport_field .sport_field_div {
+    position: relative;
+    overflow: hidden;
+}
+.content .sport_field .sport_field_div p {
+    position: absolute;
+    margin: 3px 3px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(29, 28, 28, 0.7);
+}
+.content .sport_field .sport_field_left {
+    width: 438px;
+    height: 550px;
+    margin-left: 10px;
+}
+
+.content .sport_field .sport_field_mid {
+    width: 275px;
+    height: 550px;
+    margin: 0 5px;
+}
+.content .sport_field .sport_field_mid img {
+    width: 100%;
+}  
+
+.content .sport_field .sport_field_right {
+    width: 245px;
+    height: 550px;
+}
+.content .sport_field .sport_field_right img {
+    width: 100%;
+}
+.content .sport_field  img {
+    margin: 3px;
+}
+.content .sport_field .left_right img,
+.content .sport_field .left_right p{
+    margin-left: 7px;
+}
+.content .sport_field .mid_bottom {
+   height: 214px;
+}
+.content .sport_field .right_bottom {
+    height: 349px;
+}
+/* sport_map */
+
+.content .sport_map .map_content{
+    padding: 10px;
+    border:1px solid #ddd;
+}
+.content .sport_map .map_content .nav{
+    padding: 0;
+    border-bottom:none;
+}
+.content .sport_map .map_content .nav li{
+    height: auto;
+    line-height: 1.4;
+}
+.content .sport_map .map_content .nav li a{
+    font-size:24px;
+    border:none;
+    border-bottom:3px solid #3741de;
+    padding: 2px 10px;
+}
+.content .sport_map .map_content .nav li.active a{
+    color:#ff7200;
+}
+.content .sport_map .map_content .tab-content{
+    background-color: #dae9ff;
+    border:1px solid #ddd;
+}
+.content .sport_map .map_content .menu {
+    width: 196px;
+    height: 500px;
+    background-color: #f5f9ff;
+}
+
+.content .sport_map .map_content .menu ul {
+    padding-top: 2px;
+}
+
+.content .sport_map .map_content .menu li {
+    list-style: none;
+    padding: 5px 2px;
+    height: auto;
+    line-height: 1.4;
+    cursor: pointer;
+    text-decoration:underline;
+    font-size:12px;
+}
+
+.content .sport_map .map_content .map {
+    width: 770px;
+    height: 500px;
+}
+
+.content .sport_map .map_content .map_result {
+    width: 968px;
+    margin: 0 auto;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.amap-info-content {
+    padding: 0;
+}
+
+.amap-info-close {
+    top: 8px;
+}
+
+.info-window {
+    width: 300px;
+}
+
+.info-window .color-blue {
+    color: #0e5fc8;
+}
+
+.info-window .info-window-title {
+    margin: 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: #F9F9F9;
+    font-weight: normal;
+}
+
+.info-window .info-window-wrap {
+    padding: 8px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.info-window .info-window-wrap .info-window-img {
+    float: left;
+}
+
+.info-window .info-window-wrap .info-window-text {
+    padding-left: 5px;
+    line-height: 22px;
+    float: left;
+}
+
+.info-window .info-window-search-wrap {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.info-window .info-window-search-wrap .info-window-search-input {
+    outline: none;
+    padding-left: 5px;
+}
+
+.info-window .info-window-search-wrap .info-window-search-gj,
+.info-window .info-window-search-wrap .info-window-search-zj {
+    margin-left: 10px;
+    color: #fff;
+    padding: 2px 8px;
+    border: 1px solid #0e5fc8;
+    background-color: #0e5fc8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* beautiful_tianjing */
+.content .beautiful_tianjing {
+    overflow: hidden;
+}
+.content .beautiful_tianjing .bg_img {
+   
+    margin-bottom: 15px;
+    width: 990px;
+}
+.content .beautiful_tianjing .bg_text {
+    height: 110px;
+    background: url("../imgs/bg_dian.jpg");
+   
+}
+.content .beautiful_tianjing .bg_text .left_text {
+    line-height: 30px;
+    color: #fff;
+    width: 830px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+.content .beautiful_tianjing .bg_text .right_text {
+    line-height: 30px;
+    color: #fff;
+    width: 830px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+.content .beautiful_tianjing .open_tianjing .bg_text .right_text {
+   width: 660px;
+}
+.content .beautiful_tianjing .bg_text .img_right {
+    width: 140px;
+    height: 90px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.content .beautiful_tianjing .bg_text .img_left {
+    width: 140px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.content .beautiful_tianjing .bg_text .img_text img{
+    width: 100%;
+}
+.content .beautiful_tianjing .img_box {
+    width: 600px;
+    height: 310px;
+    border: 1px solid #222;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 310px;
+}
+.content .beautiful_tianjing .tj_info {
+    padding-top: 20px;
+}
+.content .beautiful_tianjing .text_box {
+    width: 378px;
+    margin-left: 8px;
+}
+.content .beautiful_tianjing .pull-left.text_box {
+    
+    margin-left: 0px;
+}
+.content .beautiful_tianjing .text_box .tips {
+    height: 38px;
+    width: 100%;
+    background: url("../imgs/beautiful_tj_tips_bg.jpg") no-repeat center;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    color: #004dac;
+    margin-bottom: 10px;
+}
+.content .beautiful_tianjing .text_box .header_info {
+    text-indent: 2em;
+    line-height: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px  dashed #ccc;
+    height: 100px;
+}
+.content .beautiful_tianjing .text_box .header_info a {
+    text-decoration: none;
+}
+
+/* sport_huiming */
+.content .sport_huiming .bg_img {
+    
+    margin-bottom: 15px;
+    width: 990px;
+}
+.content .sport_huiming .huiming_left {
+    width: 598px;
+    border-top: 2px solid blue;
+    padding: 10px;
+}
+.content .sport_huiming .huiming_right {
+    width: 380px;
+    font-size: 12px;
+}
+.content .sport_huiming .huiming_left img {
+    width: 302px;
+    height: 271px;
+     
+}
+.content .sport_huiming .huiming_left .header_tips{
+    width: 220px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+   margin-left: 40px;
+}
+.content .sport_huiming .huiming_left .header_tips p {
+    border-left: 6px solid #1E1E92;
+}
+.content .sport_huiming .huiming_left .info_text {
+    height: 220px;
+    width: 267px; 
+    position: relative;
+}
+.content .sport_huiming .huiming_left .info_text img {
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    left: 0;
+    margin-left: 40px;
+    z-index: -1;
+}
+.content .sport_huiming .huiming_left .info_text p {
+    text-indent: 2em;
+    padding-top: 10px;
+    margin: 0px 10px 0 70px;
+    line-height: 26px;
+}
+.content .sport_huiming .huiming_right .col_item {
+    padding: 0;
+}
+.content .sport_huiming .huiming_right .col-xs-5 {
+    text-indent: 0;
+    padding: 10px;
+}
+.content .sport_huiming .huiming_right img {
+    width: 130px;
+    
+}
+.content .sport_huiming .huiming_right li  {
+    font-size: 12px;
+    text-indent: 2em;
+    height: 100px;
+    
+}
+.content .sport_huiming .huiming_right li .tips {
+    font-size: 14px;
+    text-indent: 0;
+    color: blue;
+}
+/* sport_remember */
+.content .sport_remember .bg_img {
+  
+    margin-bottom: 15px;
+    width: 990px;
+}
+.content .sport_remember .carousel {
+    margin-top: 115px;
+}
+.content .sport_remember .carousel_pr {
+    position: relative;
+    height: 115px;
+    margin-top: -115px;
+    width: 1000px;
+}
+.content .sport_remember .carousel_pr p {
+    position: absolute;
+    border: 1px dashed #ccc;
+    width: 990px;
+    margin-top: 57px;
+}
+.content .sport_remember .carousel-inner .item {
+    width: 910px;
+}
+.content .sport_remember .carousel-inner .item img {
+    width: 377px;
+    margin-left: 100px;
+}
+.content .sport_remember .carousel-inner .carousel_text {
+    margin-right: 20px;
+    width: 377px;
+    padding-top: 30px;
+}
+.content .sport_remember .carousel-indicators {
+    top: 0;
+    margin-top: 0;
+    height: 115px;
+    left: 0;
+    width: 1000px;
+    margin-left: 0
+}
+.content .sport_remember .carousel-indicators li {
+    font-size: 18px;
+    text-indent:0;
+    height: 100px;
+    margin: 10px 10px;
+    width: auto;
+    border: none;
+   
+}
+.content .sport_remember .carousel-indicators li span {
+    position: absolute;
+    width: 54px;
+    top: 0;
+    margin-top: 66px;
+    display: none; 
+}
+.carousel-indicators .active {
+    background-color: transparent;
+}
+.content .sport_remember .carousel-indicators li.active .dian {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #ff7200;
+   position: absolute;
+   margin-top: 9px;
+   margin-left: 33px;
+}
+.content .sport_remember .carousel-indicators li .dian {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 11px;
+ }
+.content .sport_remember .carousel-indicators li.active span {
+    display: block;
+    margin-left: 10px;
+}   
+.content .sport_remember .carousel-indicators li.active {
+    color: #ff7200;
+    font-size: 24px;
+}
+.content .sport_remember .carousel-inner .carousel_text li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.content .sport_remember .carousel-inner .carousel_text li i, 
+.content .sport_remember .carousel-inner .carousel_text li b{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content .sport_remember .carousel-inner .carousel_text li i{
+    color: #0258c3;
+    font-weight: 700;
+}
+.content .sport_remember .carousel-inner .carousel_text .border_top {
+    border-top: 1px dashed #222;
+}
+.content .sport_remember .carousel-control {
+    line-height: 550px;
+    font-size: 100px;
+}
+.content .sport_remember .carousel-control:hover{
+    color: #ff7200;
+}
+
+/* sport_cooperation */
+.content .sport_cooperation .bg_img {
+   
+    margin-bottom: 15px;
+    width: 990px;
+}
+.content .sport_cooperation .cooperation_tab {
+    margin-top: 35px;
+    position: relative;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+.content .sport_cooperation .cooperation_tab .nav li {
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 13px;
+}
+.content .sport_cooperation .cooperation_tab .nav li a {
+    padding: 0;
+    margin: 0;
+}
+.content .sport_cooperation .cooperation_tab ul {
+    border:none;
+    position: absolute;
+    top: 0px;
+    margin-top: -20px;
+}
+.content .sport_cooperation .cooperation_tab .tab-content {
+    margin-top: 30px;
+    min-height: 100px;
+}
+.content .sport_cooperation .cooperation_tab .tab-pane img{
+    width: 900px;
+    height: auto;
+}
+.content .sport_cooperation  .cooperation_footer img {
+    height: 100px;
+}
+.content .sport_cooperation  .cooperation_footer .text_tips {
+    line-height: 100px;
+}
+/* content end */
+
+/* footer start */
+.footer {
+    width: 100%;
+}
+.footer .copy_desc {
+    width: 100%;
+    height: 45px;
+    background: rgb(44, 46, 123);
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+}
+.footer .sport_copy_img li{
+    text-align: center;
+}
+/* footer end  */
+
+/* index  html end */
+
+
+
+/* beautiful_tj html start */
+.beautiful_tj .layout .content {
+    padding: 0;
+}
+.beautiful_tj .content .sport_view_info {
+    margin: 0;
+    padding: 0;
+}
+
+/* beautiful_tj html end */
+
+
+
+/* sport_dynamic html start */
+
+.sport_dynamic .content .sport_view_info {
+    margin: 0;
+    padding: 0;
+}
+.sport_dynamic .content .sport_dynamic {
+    background: #fff;
+    
+}
+/* sport_dynamic html end */
+
+
+/* huiming  html start */
+
+.huiming .layout .content {
+    padding: 0;
+}
+.huiming .content .sport_view_info {
+    margin: 0;
+    padding: 0;
+}
+.huiming .content .sport_huiming .bg_img {
+    width: 1000px;
+}
+/* huiming  html end */
+
+
+/* pic_sport  html start */
+
+.pic_sport .content .sport_info {
+    background: #fff;
+}
+.pic_sport .content .sport_info .pic {
+    margin-left: 15px;
+}
+.pic_sport .row .sport_img_item {
+    width: 33.33333333%;
+    margin: 10px 0;
+    height: 190px;
+    line-height: 190px;
+    border: none ;
+}
+.pic_sport .content .sport_img_item img {
+    width: 250px;
+    height: 165px;
+}
+/* pic_sport end */
+
+/* sport_notice html start */
+.notice .content {
+    background: #fff;
+}
+
+.notice .layout .content .pull-left ul  li {
+    line-height: 38px;
+    height: 38px;
+}
+.notice .layout .content .pull-right ul  li {
+    margin: 30px;
+}
+.notice .layout .content .paging {
+    text-align: center;
+}
+.notice .layout .sport_notice .img {
+    position: relative;
+}
+.notice .layout .sport_notice .img .text_tips_100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 360px;
+    width: 277px;
+    line-height: 53px;
+    height: 53px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+/* sport_notice html end */
+
+
+/* news_info html  start */
+
+.news_info .content {
+    background: #fff;
+}
+.news_info .news_content .info_title {
+    padding: 0 20px;
+    border-bottom: 1px solid  #ccc;
+}
+.news_info .news_content .info_title h3,
+.news_info .news_content .info_title p {
+    text-align: center;
+}
+.news_info .news_content .info_title h3 {
+    color: #0e5fc7;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.news_info .news_content .info p,
+.news_info .news_content .link_to  {
+    padding: 10px 0;
+    line-height: 35px;
+    font-size: 18px;
+    text-indent: 2em;
+}
+.news_info .show img {
+    margin: 0 10px;
+}
+.news_info .show .moble_erweima {
+    width: 87px;  
+}
+.news_info .sport_project .bg_06{
+    height: 235px;
+   background: url("../imgs/bg_06.jpg") repeat-x;
+}
+.news_info .sport_project .bg_06 span {
+    display: inline-block;
+    width: 92px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 10px 3px;
+    color: #0e5fc7;
+   
+}
+.news_info .sport_project .bg_06 p {
+    color: #0e5fc7;
+    
+}
+.news_info .sport_changguan ul li{
+    text-align: center;
+    width: 50%;
+    margin-top: 10px ;
+}
+.news_info .sport_changguan ul li p {
+    margin: 0;
+   padding-top: 10px;
+}
+.news_info .sport_huiyi ul {
+    width: 100%;
+}
+.news_info .sport_huiyi ul .tips {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 700;
+    text-align: center;
+}
+.news_info .sport_huiyi ul img {
+    margin-right: 10px;
+}
+.news_info .p_more {
+    padding-left: 10px;
+}
+.sport_cout {
+    position: relative;
+}
+.sport_cout .text_tips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 128px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;;
+    color: #fff;
+}
+ /* news_info html end */
